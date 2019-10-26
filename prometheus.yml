@@ -5,3 +5,8 @@ scrape_configs:
       - targets: ['application:8080']
 rule_files:
   - 'rules.yml'
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets:
+            - alertmanager:9093

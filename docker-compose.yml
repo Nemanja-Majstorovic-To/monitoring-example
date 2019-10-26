@@ -13,3 +13,9 @@ services:
       - ./rules.yml:/etc/prometheus/rules.yml
     ports:
       - 9090:9090
+  alertmanager:
+    image: prom/alertmanager:latest
+    ports:
+      - 9093:9093
+    volumes:
+      - ./alertmanager.yml:/etc/alertmanager/alertmanager.yml
