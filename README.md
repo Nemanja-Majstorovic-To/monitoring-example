@@ -13,6 +13,8 @@ along with the video/blog post. e.g.
 
 `git checkout part2`
 
+Note that part 1 isn't tagged as it doesn't have a code example component.
+
 ## Pre-requisites
 
 * Docker
