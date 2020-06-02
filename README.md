@@ -32,5 +32,5 @@ password (if you want alerts to be sent to your email address)
 * Grafana is available at [http://localhost:3000](http://localhost:3000) (login is admin/admin)
 * Application metrics are available at [http://localhost:8080/actuator/prometheus](http://localhost:8080/actuator/prometheus)
 * Application endpoint is available at [http://localhost:8080/doit](http://localhost:8080/doit)
-
+* Try importing the JVM (Micromter) [dashboard](https://grafana.com/grafana/dashboards/4701) with ID 4701
 
